@@ -45,6 +45,7 @@ nav a:hover{
     font-weight:bold;
     padding: 50px;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .imagem-leitura-infantil{
@@ -56,12 +57,47 @@ nav a:hover{
 .livro-descricao{
     font-size: 20px;
     text-align: center;
-    margin: 0 0 1em;
+    margin: 10px 40px 10px 40px
+    
 }
 
 ol {
-    list-style-type: lower-roman;
+    list-style-type:lower-roman;
+    margin: 50px;
 }
+
+.imagem-dicas-esquerda{
+    width: 350px;
+    display: block;
+    float: left;
+    
+}
+
+.imagem-dicas-direita{
+    width: 350px;
+    display: block;
+    float: right;
+    margin: 50px;
+}
+
+.titulo-dica-direita{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    clear: left;
+    padding: 35px;
+    
+}
+
+.titulo-dica-esquerda {
+    clear:right;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
 
 
     
