@@ -22,6 +22,14 @@
 
     <main>
             <form>
+                <p>Login:
+                    <input type="text" name="Login" size="15">
+                </p>
+    
+                <p>Senha:
+                    <input type="password" name="password" size="15">
+                </p>
+                
                 <label for="nomesobrenome">Nome e sobrenome</label>
                 <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Marcos Maia">
         
@@ -30,9 +38,68 @@
                 
                 <label for="telefone">Telefone</label>
                 <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-        
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <p>Qual sua localização?</p>
+                    <select name="região">
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapá">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceará">Ceará</option>
+                        <option value="Espírito Santo">Espírito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piauí">Piauí</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        <option value="Rondônia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantis">Tocantis</option>
+                        <option value="Distrito Federal">Distrito Federal</option>
+                    </select>
+
+                    <div>
+                        <p>Quais seus gêneros preferidos:</p>
+                        
+                            <label for="radio-Suspense">
+                            <input type="radio" name="genero" value="Suspense" id="radio-whatsapp">Suspense</label>
+
+                            <label for="radio-Ficção">
+                            <input type="radio" name="genero" value="Ficção" id="radio-Ficção" >Ficção Científica</label>
+
+                            <label for="radio-Romance">
+                            <input type="radio" name="genero" value="Romance" id="radio-Romance">Romance</label>
+
+                            <label for="radio-Desenvolvimento">
+                            <input type="radio" name="genero" value="Desenvolvimento" id="radio-desenvolvimento">Desenvolvimento Pessoal</label>
+
+                            <label for="radio-auto">
+                            <input type="radio" name="genero" value="Email" id="radio-email">Auto-ajuda</label>
+
+                            <label for="radio-finaças">
+                            <input type="radio" name="genero" value="Finaças" id="radio-email">Finanças</label>
+
+                            <label for="radio-Bibliografia">
+                            <input type="radio" name="genero" value="Bibliografia" id="radio-email">Bibliografia</label>
+                    </div>
+                    
+                    <p>Você ler</p>
+                        <select name="região">
+                            <option value="Tdoso os dias">Todos os dias</option>
+                            <option value="Alguns dias">Alguns dias na semana</option>
+                            <option value="Raramente">Raramente</option>
+                        </select>
+                        
             </form>
             
                 
